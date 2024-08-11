@@ -1,0 +1,86 @@
+# Alacritty configuration file
+
+# Window settings
+window:
+  # Window dimensions (changes require restart)
+  #dimensions:
+  #  columns: 80
+  #  lines: 24
+
+  # Window position (changes require restart)
+  #position:
+  #  x: 0
+  #  y: 0
+
+  # Startup mode (fullscreen, maximized, windowed)
+  #startup_mode: Windowed
+
+  # Window decorations (none, transparent, buttonless, full)
+  #decorations: full
+
+  # Window padding (optional)
+  padding:
+    x: 10
+    y: 10
+
+# Font settings
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: "Fira Code NerdFont"
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: "Fira Code NerdFont"
+    style: Bold
+
+  # Point size of the font
+  size: 12.0
+
+# Colors (Example scheme: Dracula)
+colors:
+  # Default colors
+  primary:
+    background: '0x282a36'
+    foreground: '0xf8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '0x4d4d4d'
+    red:     '0xff6e6e'
+    green:   '0x69ff94'
+    yellow:  '0xffffa5'
+    blue:    '0xd6acff'
+    magenta: '0xff92d0'
+    cyan:    '0xa4ffff'
+    white:   '0xffffff'
+
+# Cursor settings
+cursor:
+  # Cursor style (block, underline, beam)
+  style: Block
+
+  # Vi mode cursor
+  vi_mode_style:
+    shape: Block
+
+# Scrolling
+scrolling:
+  # Maximum number of lines in the scrollback buffer
+  history: 10000
+
+  # Multiplier for scrolling speed
+  multiplier: 3
+
